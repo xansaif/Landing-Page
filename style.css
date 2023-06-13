@@ -1,0 +1,40 @@
+body
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    flex: 1;
+}
+
+.header,.hero,.footer
+{   flex: 1;
+    background-color: #1F2937;
+    color: white;
+
+}
+img, button
+{
+    border-radius: 20px;
+}
+.images img
+{
+    width: 160px;
+    height: 160px;
+}
+
+.info,.images
+{
+    display:flex ;
+    align-items: center ;
+}
+
+.info
+{   
+    flex-direction: column;
+}
+
+.images
+{
+    gap: 50px;
+}
