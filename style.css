@@ -43,6 +43,7 @@ body
 {   
     flex-direction: column;
     padding: 100px;
+    align-items: center;
 }
 .info h2
 {
@@ -50,8 +51,13 @@ body
     font-weight: bolder;
     color: #1F2937;
 }
-.images
+.image-text
 {
+    width: 160px;
+}
+.images
+{   
+    align-items: flex-start;
   gap: 50px;
 }
 .header,.header-logo, .links
@@ -68,12 +74,13 @@ body
     justify-content: center;
     padding: 70px;
     gap: 100px;
+    align-items: center;
 }
 
 .hero img
 {
     width: 400px;
-    height: 150px;
+    height: auto;
 }
 .hero-text button
 {
@@ -93,6 +100,7 @@ body
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
+    width: 300px;
 }
 
 .quote
