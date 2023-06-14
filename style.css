@@ -2,18 +2,19 @@ body
 {   
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: center;
     align-items: stretch;
-    flex: 1;
+    margin: auto;
 }
 
 .header,.hero,.footer
-{   flex: 1;
+{   flex: 1 1 auto;
     background-color: #1F2937;
     color: white;
+    display: flex;
 
 }
-img, button
+.images img, button
 {
     border-radius: 20px;
 }
@@ -36,5 +37,32 @@ img, button
 
 .images
 {
-    gap: 50px;
+  gap: 50px;
+}
+.header,.header-logo, .links
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    gap: 10px;
+}
+
+.hero
+{
+    display: flex;
+    justify-content: center;
+}
+
+.hero img
+{
+    width: 400px;
+    height: 150px;
+}
+.foot
+{
+    align-self: flex-end;
+}
+.header, .footer
+{
+    padding: 20px;
 }
